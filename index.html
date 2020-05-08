@@ -303,12 +303,12 @@
 
 					<div class="container">
 						<div class="row">
-							<label for="year-select" class="col-6 side-menu-content">Jahr</label>
+							<label for="year-select" class="side-menu-label col-6 ">Jahr</label>
 							<select id="year-select" class="custom-select col-6 "></select>
 							<script src="/js/date.js"></script>
-							<label  for="month-select" class="col-6 side-menu-content">Monat</label>
+							<label  for="month-select" class="side-menu-label col-6 ">Monat</label>
 							<select id="month-select" class="custom-select col-6 select-month"></select>
-							<label for="day-select" class="col-6 side-menu-content">Tag</label>
+							<label for="day-select" class="side-menu-label col-6 ">Tag</label>
 							<select	id="day-select" class="custom-select col-6 select-day"></select>
 						</div>
 						<div class="row">
@@ -329,13 +329,17 @@
 
 					<div class="container">
 						<div class="row">
-							<input type="text" class="form-control" name="start" placeholder="Start" id="route-start-control-input">
-							<input type="text" class="form-control" name="ziel" placeholder="Ziel" id="route-target-control-input">
-							<select id="class-of-person" class="custom-select col-12 custom-select">
+							<label for="route-start-lat-control-input" class="side-menu-label col-12"> Start</label>
+							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="start" placeholder="Latitude" id="route-start-control-lat-input">
+							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="start" placeholder="Longitude" id="route-start-control-lon-input">
+							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="ziel" placeholder="Latitude" id="route-target-control-lat-input">
+							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="ziel" placeholder="Longitude" id="route-target-control-lon-input">
+
+							<select style="margin-bottom: 10px;" id="class-of-person" class="custom-select col-12 custom-select">
 								<option value="farmer">Bauer</option>
 								<option value="noble">Adliger</option>
 							</select> 
-							<select id="transport-type" class="custom-select col-12 custom-select">
+							<select style="margin-bottom: 10px;" id="transport-type" class="custom-select col-12 custom-select">
 								<option value="walking">Wandern</option>
 								<option value="horse">Reiten</option>
 								<option value="carriage">Pferdekutsche</option>
@@ -345,7 +349,11 @@
 							</select> 
 						</div>
 						<div class="row">
-							<button type="button" class="btn btn-light apply-time col-12">übernehmen</button>
+							<button onclick="planRoute()" type="button" class="btn btn-light apply-time col-12">übernehmen</button>
+						</div>
+
+						<div class="row">
+							<p id="route-time"></p>
 						</div>
 
 					</div>
@@ -367,6 +375,7 @@
 	<script src="js/updateTime.js"></script>
 	<script src="js/menu.js"></script>
 	<script src="js/geocoding.js"></script>
+	<script src="js/route.js"></script>
 
 
 </body>

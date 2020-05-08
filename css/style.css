@@ -56,7 +56,11 @@ basic bootstrap overrides
 	border-left: none;
 	border-right: none;
 }*/
-.custom-select,
+.custom-select{
+	border-radius: 0px;
+	border-color: #76B900;
+	padding-bottom: 10px;
+}
 .custom-select:focus{
 	border-radius: 0px;
 	border-color: #76B900;
@@ -205,6 +209,10 @@ basic bootstrap overrides
 
 .side-menu-content {
 	border-bottom: 1px solid #DDD;
+	padding: 10px 20px;
+}
+
+.side-menu-label {
 	padding: 10px 20px;
 }
 
