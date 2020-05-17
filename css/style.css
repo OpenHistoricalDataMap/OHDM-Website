@@ -20,6 +20,21 @@ body {
 basic bootstrap overrides
 *
 */
+#header{
+	margin-top: 3%;
+	margin-left: 5%;
+}
+#privacyUl li a{
+	text-decoration: none;
+}
+.privacy-container{
+	background-color: rgb(235, 240, 240);
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 2%;
+	border: 1px solid rgb(252, 249, 250);
+	width: 45%;
+}	
 .btn, button{
 	cursor: pointer;
 	border-radius: 0px;
@@ -28,12 +43,14 @@ basic bootstrap overrides
 .btn-light:focus{
 	border-color: #76B900;
 	background-color: #fff;
+	border-radius: 4px;
 }
 .btn-light:hover,
 .btn-light:active{
 	border-color: #76B900;
-	background-color: #EEFFD1;
-	color: #517f00;
+	background-color: #76B900;
+	color: white;
+	transition: 0.5s;
 }
 .btn-light:not([disabled]):not(.disabled).active, .btn-light:not([disabled]):not(.disabled):active, .show>.btn-light.dropdown-toggle{
 	border-color: #76B900;
@@ -52,6 +69,18 @@ basic bootstrap overrides
 .form-control:focus{
 	box-shadow: none;
 }
+#privacy{
+	font-size: 8px;
+	color: black;
+}
+#privacy input{
+	vertical-align: middle;
+	font-size: 8px;
+}
+#privacylink{
+	color: #000;
+	font-style: italic;
+} 
 /*.edit-dropdown{
 	border-left: none;
 	border-right: none;
@@ -129,7 +158,9 @@ basic bootstrap overrides
 .navbar-light .navbar-toggler-icon{
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");	
 }
-
+#navbarprivacy{
+	border-bottom: 1px solid #76B900;
+}
 
 /** right butto menu **/
 .controll-container {

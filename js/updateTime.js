@@ -3,7 +3,7 @@
  * 
  * @param date
  *            input date as String "YYYY-MM-DD"
- */
+ 
 function updateAllLayersDate(date) {
 	//update cql-filter string
 	cqlTimeFilter = cqlTemplateTimeFilter.replace(new RegExp('{{DATE}}', 'g'), date);
@@ -20,13 +20,15 @@ function updateAllLayersDate(date) {
 
 /**
  * updates layers based on date from select boxes
- */
+ 
 applyTimeBtn.click(function(e) {
 	/*console.log(selectYearBox.val() + "-"
 			+ dayOrMonthToString(selectMonthBox.val()) + "-"
-			+ dayOrMonthToString(selectDayBox.val()));*/
+			+ dayOrMonthToString(selectDayBox.val()));
 	updateAllLayersDate(selectYearBox.val() + "-"
 			+ dayOrMonthToString(selectMonthBox.val()) + "-"
 			+ dayOrMonthToString(selectDayBox.val()));
 
 });
+*/
+

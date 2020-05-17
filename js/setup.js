@@ -141,6 +141,23 @@ function getDateParam() {
 	}
 }
 
+/*
+*
+___________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________
+*
+*/
+
+//get time of html documents and change params /-OCHIR
+function getTimeAndUpdateMap(){
+	var year = document.getElementById("year-select").value;
+	var dateSelect = year + "-" + selectMonthBox.val() + "-" + selectDayBox.val(); // creates "YYYY-MM-DD"
+	test_tile.getSource().updateParams({'TIME': new Date(dateSelect).toISOString()});
+	console.log(new Date(dateSelect).toISOString());
+}
+var timeButton = document.getElementById("getTime");
+timeButton.addEventListener('click', getTimeAndUpdateMap, false);
+
 /**
  * 
  * 

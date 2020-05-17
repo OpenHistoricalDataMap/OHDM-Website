@@ -1,6 +1,7 @@
 /**
  * define all layers
  */
+/*
 var boundary_admin_2_lines = new ol.layer.Tile({
 	source : new ol.source.TileWMS({
 		url : 'http://ohm.f4.htw-berlin.de:8080/geoserver/ohdm_t/wms',
@@ -611,9 +612,10 @@ var landuse_transport_label = new ol.layer.Tile({
 		serverType : 'geoserver'
 	})
 });
+
 var landuse_water_label = new ol.layer.Tile({
 	source : new ol.source.TileWMS({
-		url : 'http://ohm.f4.htw-berlin.de:8080/geoserver/ohdm_t/wms',
+		url : 'http://141.45.146.200:8585/geoserver/geotest/wms',
 		params : {
 			'LAYERS' : 'ohdm_t:landuse_water_label',
 			'format' : 'image/png',
@@ -622,46 +624,28 @@ var landuse_water_label = new ol.layer.Tile({
 		serverType : 'geoserver'
 	})
 });
+*/
+
+var time = '2020-4-12T18:00:00.0Z'; 
+var test_tile = new ol.layer.Tile({
+	source : new ol.source.TileWMS({
+		url : 'http://141.45.146.200:8585/geoserver/geotest/wms',
+		params : {
+			'LAYERS' : 'geotest:GeoHTW',
+			'FORMAT' : 'image/png',
+			'VERSION' : '1.1.1',
+			'TRANSPARENT' : 'true',
+			'TIME': time
+		},
+		serverType: 'geoserver'
+	})
+});
 
 /**
  * layers into layer-group
  */
+
 var layers = new ol.layer.Group({
-	layers : [ natural_polygons, military_polygons, waterway_polygons,
-			geological_polygons, aeroway_polygons, emergency_polygons,
-
-			landuse_brown, landuse_commercialetc, landuse_freegreenandwood,
-			landuse_gardeningandfarm, landuse_grey, landuse_industrial,
-			landuse_military, landuse_residentialetc, landuse_transport,
-			landuse_water,
-
-			building_polygons,
-
-			highway_path_lines, highway_small_lines, highway_tertiary_lines,
-			highway_huge_lines, highway_secondary_lines, highway_primary_lines,
-			railway_lines,
-
-			boundary_admin_2_lines,
-			// boundary_admin_3_lines,
-			boundary_admin_4_lines,
-			// boundary_admin_5_lines,
-			boundary_admin_6_lines,
-			// boundary_admin_7_lines,
-			// boundary_admin_8_lines,
-			boundary_admin_9_lines,
-			// boundary_admin_10_lines,
-
-			natural_polygons_label, military_polygons_label,
-			waterway_polygons_label, geological_polygons_label,
-			aeroway_polygons_label, emergency_polygons_label,
-
-			landuse_brown_label, landuse_commercialetc_label,
-			landuse_freegreenandwood_label, landuse_gardeningandfarm_label,
-			// landuse_grey,
-			landuse_industrial_label, landuse_military_label,
-			landuse_residentialetc_label, landuse_transport_label,
-			landuse_water_label,
-
-			building_polygons_label ]
-});
+	layers : [test_tile]
+})
 

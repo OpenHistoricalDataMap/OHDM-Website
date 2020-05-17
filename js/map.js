@@ -33,21 +33,19 @@ var mousePositionControl = new ol.control.MousePosition({
 	className : 'custom-mouse-position',
 	undefinedHTML : '&nbsp;'
 });
+
 /**
  * map view
  */
 var view = new ol.View({
 	projection : 'EPSG:3857',
-	center : ol.proj.transform([ 13.4, 52.5 ], 'EPSG:4326', 'EPSG:3857'),
-	zoom : 11
+	center : ol.proj.transform([ 13.51370, 52.46 ], 'EPSG:4326', 'EPSG:3857'),
+	zoom : 14
 });
 
 /** * map ** */
 var map = new ol.Map({
 	layers : layers,
-	/*[ new ol.layer.Tile({
-		source : new ol.source.OSM()
-	}) ],*/
 	loadTilesWhileAnimating : true,
 	interactions : interactions,
 	target : 'map',
