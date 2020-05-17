@@ -29,8 +29,8 @@ function planRoute(){
         "latitude": document.getElementById("route-target-control-lat-input").value, 
         "longitude": document.getElementById("route-target-control-lon-input").value
      },
-     "day":"2020-5-1",
-     "restricted_area":[]
+     "day":"2019-5-1",
+     "restricted_area":{}
     })
     xmlRequest.send(data);
 
