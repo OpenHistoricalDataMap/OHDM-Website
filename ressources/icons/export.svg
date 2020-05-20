@@ -13,7 +13,7 @@
    height="20.0px"
    width="20.0px"
    inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
-   sodipodi:docname="search.svg">
+   sodipodi:docname="export.svg">
   <defs
      id="defs18">
     <inkscape:path-effect
@@ -62,14 +62,16 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#000000;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 2,18 7,13"
-       id="path53" />
+       id="path870"
+       d="M 5,6 H 2 V 17 H 18 V 6 h -3"
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
     <path
-       style="fill:#ffffff;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;fill-opacity:0;opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 7,13 c 1.1780972,1.178097 2.8339189,1.863961 4.5,1.863961 1.666081,0 3.321903,-0.685864 4.5,-1.863961 1.178097,-1.178097 1.863961,-2.833919 1.863961,-4.5 C 17.863961,6.8339189 17.178097,5.1780972 16,4 14.821903,2.8219028 13.166081,2.136039 11.5,2.136039 9.8339189,2.136039 8.1780972,2.8219028 7,4 5.8219028,5.1780972 5.136039,6.8339189 5.136039,8.5 5.136039,10.166081 5.8219028,11.821903 7,13 Z"
-       id="path57"
-       inkscape:path-effect="#path-effect59"
-       inkscape:original-d="m 7,13 c -3.001,2.999 6.001,-5.999 9,-9 2.999,-3.001 -5.999,6.001 -9,9 z" />
+       id="path872"
+       d="M 10,12.405716 V 1.6901439"
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path874"
+       d="m 7,3.4998504 3,-2 3,2"
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

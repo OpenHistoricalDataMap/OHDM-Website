@@ -1,11 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layers" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<path d="M9.248,11.601c0.45,0.313,1.05,0.313,1.5,0l9.088-5.281c0.236-0.164,0.21-0.518-0.048-0.646l-9.205-3.537
-	c-0.368-0.183-0.802-0.183-1.17,0L0.208,5.674C-0.05,5.801-0.076,6.156,0.16,6.32L9.248,11.601z M19.788,10.811l-2.486-1.233
-	l-5.725,3.327c-0.469,0.309-1.014,0.471-1.579,0.471s-1.11-0.163-1.579-0.471L2.698,9.576l-2.49,1.234
-	c-0.258,0.128-0.284,0.482-0.048,0.646l9.088,6.309c0.45,0.313,1.05,0.313,1.5,0l9.088-6.309
-	C20.072,11.293,20.046,10.939,19.788,10.811z" fill="#fff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="SVGRoot"
+   version="1.1"
+   viewBox="0 0 20.0 20.0"
+   height="20.0px"
+   width="20.0px"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   sodipodi:docname="layers.svg">
+  <defs
+     id="defs18">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1142"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1100"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1096"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1092"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1088"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect59"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="30.56191"
+     inkscape:cx="11.291819"
+     inkscape:cy="9.3381283"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1528"
+     inkscape:window-height="836"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       id="grid27"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:2;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:miter;paint-order:normal;stroke-miterlimit:4;stroke-dasharray:none"
+       d=""
+       id="path1126" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:2;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:miter;paint-order:normal;stroke-miterlimit:4;stroke-dasharray:none"
+       d=""
+       id="path1128" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:2;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:miter;paint-order:normal;stroke-miterlimit:4;stroke-dasharray:none"
+       d=""
+       id="path1130" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:2;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:miter;paint-order:normal;stroke-miterlimit:4;stroke-dasharray:none"
+       d=""
+       id="path1132" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:2;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:miter;paint-order:normal;stroke-miterlimit:4;stroke-dasharray:none"
+       d=""
+       id="path1134" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:2;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:miter;paint-order:normal;stroke-miterlimit:4;stroke-dasharray:none"
+       d=""
+       id="path1136" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:2;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:miter;paint-order:normal;stroke-miterlimit:4;stroke-dasharray:none"
+       d=""
+       id="path1138" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 10,1.9999882 -2,1 v 0 l -2,1 -2,1 -2,1 2,1 2,1 2,1 2,0.9999998 2,-0.9999998 2,-1 2,-1 2,-1 -2,-1 -2,-1 -2,-1 z"
+       id="path1273" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 4,9.6 -2,1 2,1 2,1 2,1 2,1 2,-1 2,-1 2,-1 2,-1 -2,-1"
+       id="path1284" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 4,14.2 -2,1 2,1 2,1 2,1 2,1 2,-1 2,-1 2,-1 2,-1 -2,-1"
+       id="path1286" />
+  </g>
 </svg>
