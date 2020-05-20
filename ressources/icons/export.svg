@@ -7,43 +7,43 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="SVGRoot"
-   version="1.1"
-   viewBox="0 0 20.0 20.0"
-   height="20.0px"
-   width="20.0px"
+   sodipodi:docname="export.svg"
    inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
-   sodipodi:docname="export.svg">
+   width="20.0px"
+   height="20.0px"
+   viewBox="0 0 20.0 20.0"
+   version="1.1"
+   id="SVGRoot">
   <defs
      id="defs18">
     <inkscape:path-effect
-       effect="spiro"
-       id="path-effect59"
+       lpeversion="1"
        is_visible="true"
-       lpeversion="1" />
+       id="path-effect59"
+       effect="spiro" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="29.965457"
-     inkscape:cx="7.2291528"
-     inkscape:cy="9.3792648"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="true"
-     inkscape:window-width="1528"
-     inkscape:window-height="836"
-     inkscape:window-x="72"
+     inkscape:window-maximized="1"
      inkscape:window-y="27"
-     inkscape:window-maximized="1">
+     inkscape:window-x="72"
+     inkscape:window-height="836"
+     inkscape:window-width="1528"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="9.3792648"
+     inkscape:cx="7.2291528"
+     inkscape:zoom="29.965457"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
     <inkscape:grid
-       id="grid27"
-       type="xygrid" />
+       type="xygrid"
+       id="grid27" />
   </sodipodi:namedview>
   <metadata
      id="metadata21">
@@ -58,20 +58,23 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <path
-       id="path870"
-       d="M 5,6 H 2 V 17 H 18 V 6 h -3"
-       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+       sodipodi:nodetypes="cccccc"
+       style="fill:none;stroke:#f8ffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5,9 H 2 v 8 H 18 V 9 h -3"
+       id="path870" />
     <path
-       id="path872"
-       d="M 10,12.405716 V 1.6901439"
-       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#f8ffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 10,12.405716 V 2"
+       id="path872" />
     <path
-       id="path874"
-       d="m 7,3.4998504 3,-2 3,2"
-       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       sodipodi:nodetypes="ccc"
+       style="fill:none;stroke:#f8ffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7,4 3,-3 3,3"
+       id="path874" />
   </g>
 </svg>

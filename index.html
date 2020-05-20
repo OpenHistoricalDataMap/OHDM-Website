@@ -247,7 +247,13 @@
 				</a>
 			</div>
 			<div class="side-menu-button" title="Routenplaner">
-				<a href="#" id="routes" ><img class="icon" src="ressources/icons/route.svg" alt="Routenplaner">
+				<a href="#" id="routes" ><img class="icon" 
+					src="ressources/icons/route.svg" alt="Routenplaner">
+				</a>
+			</div>
+			<div class="side-menu-button" title="Karte Exportieren">
+				<a href="#" id="export" ><img class="icon" 
+					src="ressources/icons/export.svg" alt="Karte Exportieren">
 				</a>
 			</div>
 		</div>
@@ -330,6 +336,7 @@
 				</div>
 			</div>
 
+			<!-- routes menu -->
 			<div id="routes-menu">
 				<div class="side-menu-heading">
 					<span class="close-menu"><img class="close-icon"
@@ -367,6 +374,37 @@
 							<p id="route-time"></p>
 						</div>
 
+					</div>
+				</div>
+			</div>
+
+			<div id="export-menu">
+				<div class="side-menu-heading">
+					<span class="close-menu"><img class="close-icon"
+						src="ressources/icons/cross.svg" alt="Schließen"></span>
+					<h5>Karte exportieren</h5>
+				</div>
+				<div class="side-menu-content">
+
+					<div class="container">
+						<div class="row">
+							<div class="form-export-container">
+								<form id="form-export" action="">
+									<input type="text" name="max-lat" class="form-control col-5 form-export-entry " id="max-lat">
+									<br style="height: 2rem;">
+									<input type="text" name="min-lon" class="form-control col-5 form-export-entry " id="min-lon">
+									<input type="text" name="max-lon" class="form-control col-5 form-export-entry " id="max-lon">
+									<br style="height: 2rem;">
+									<br style="height: 2rem;">
+									<br style="height: 2rem;">
+									<input type="text" name="min-lat" class="form-control col-5 form-export-entry"  id="min-lat">
+								</form>
+							</div>
+							
+						</div>
+						<div class="row">
+							<button onclick="exportMap()" type="button" class="btn btn-light apply-time col-12">übernehmen</button>
+						</div>
 					</div>
 				</div>
 			</div>
