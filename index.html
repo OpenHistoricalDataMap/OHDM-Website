@@ -348,10 +348,10 @@
 					<div class="container">
 						<div class="row">
 							<label for="route-start-lat-control-input" class="side-menu-label col-12"> Start</label>
-							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="start" placeholder="Latitude" id="route-start-control-lat-input">
-							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="start" placeholder="Longitude" id="route-start-control-lon-input">
-							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="ziel" placeholder="Latitude" id="route-target-control-lat-input">
-							<input style="margin-bottom: 10px;" type="number" class="form-control col-6" name="ziel" placeholder="Longitude" id="route-target-control-lon-input">
+							<input style="margin-bottom: 10px;" type="text" class="form-control col-6" name="start" placeholder="Latitude" id="route-start-control-lat-input">
+							<input style="margin-bottom: 10px;" type="text" class="form-control col-6" name="start" placeholder="Longitude" id="route-start-control-lon-input">
+							<input style="margin-bottom: 10px;" type="text" class="form-control col-6" name="ziel" placeholder="Latitude" id="route-target-control-lat-input">
+							<input style="margin-bottom: 10px;" type="text" class="form-control col-6" name="ziel" placeholder="Longitude" id="route-target-control-lon-input">
 
 							<select style="margin-bottom: 10px;" id="class-of-person" class="custom-select col-12 custom-select">
 								<option value="farmer">Bauer</option>
@@ -365,6 +365,13 @@
 								<option value="bycicle">Fahrrad</option>
 								<option value="car">Auto</option>
 							</select> 
+							<div class="waterwayincl-container">
+								<label for="waterwayincl" class="checkbox-label">Wasserweg erlauben
+									<input type="checkbox" name="waterwayincl" id="waterwayincl">
+									<span class="checkmark"></span>
+								</label>
+							</div>
+							
 						</div>
 						<div class="row">
 							<button onclick="planRoute()" type="button" class="btn btn-light apply-time col-12">übernehmen</button>
@@ -404,6 +411,13 @@
 						</div>
 						<div class="row">
 							<button onclick="exportMap()" type="button" class="btn btn-light apply-time col-12">übernehmen</button>
+						</div>
+						<div class="side-menu-content">
+							Hier können Sie Karten exportieren, 
+							diese stehen dann auch für den <a href="">Android Offline Viewer</a> verfügbar.
+						</div>
+						<div class="row">
+							<button onclick="exportMap()" type="button" class="btn btn-light apply-time col-12">Bereits exportierte Karten</button>
 						</div>
 					</div>
 				</div>
