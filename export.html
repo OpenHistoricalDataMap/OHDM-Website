@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OHDM</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <!-- 
+	top navbar
+	 -->
+	<div class="navbar-container">
+		<nav class="navbar navbar-expand-md navbar-light top-nav">
+			<nav class="navbar navbar-light">
+                <!-- replace OHDM LOGO here !-->
+                
+				<span class="navbar-brand navbar-brand-long"> <a href="/index.html"><img
+					src="https://dummyimage.com/30x30/76B90/fff.png&text=LOGO"
+					width="30" height="30" class="d-inline-block align-top" alt=""></a>
+					OpenHistoricalDataMap
+				</span> <span class="navbar-brand navbar-brand-short"> <img
+					src="https://dummyimage.com/30x30/76B90/fff.png&text=LOGO"
+					width="30" height="30" class="d-inline-block align-top" alt="">
+					OHDM
+				</span>
+			</nav>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<form class="form-inline mobile-hidden">
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-light">Bearbeiten</button>
+						<!-- <div class="dropdown">
+							  <button class="btn btn-light dropdown-toggle edit-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							  </div>
+							</div> -->
+						<button type="button" class="btn btn-light">Chronik</button>
+						<button type="button" class="btn btn-light">Export</button>
+					</div>
+				</form>
+
+				<ul class="navbar-nav ml-auto">
+					<!-- <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Link</a></li> -->
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+						role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false"> mehr </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Hilfe</a> <a
+								class="dropdown-item" href="#">Über</a>
+							<!-- <div class="dropdown-divider"></div> -->
+							<a class="dropdown-item" href="#">Urheberrecht</a>
+						</div></li>
+
+				</ul>
+				<form class="form-inline">
+					<div class="btn-group LoginRegisterGroup" role="group">
+						<button type="button" class="btn btn-light" data-toggle="modal"
+							data-target="#loginModal">Anmelden</button>
+						<button type="button" class="btn btn-light" data-toggle="modal"
+							data-target="#registerModal">Registrieren</button>
+					</div>
+				</form>
+
+
+			</div>
+		</nav>
+    </div>
+    
+    
+    <div class="grid-container">
+        <h2 id="header-export">Exportierte Karten</h2>
+         <div class="title-name">
+            <p class="export-title" >Name</p>
+        </div>
+        <div class="name-container">
+            <div class="sample-entry">
+                <p class="export-content" >Quedlinburg</p>
+            </div>
+        </div>
+
+        <div class="title-description">
+            <p class="export-title" >Beschreibung</p>
+        </div>
+        <div class="description-container">
+            <div class="sample-entry">
+                <p class="export-content" >Quedlinburg im Jahr 965 </p>
+            </div>
+        </div>
+
+        <div class="title-date">
+            <p class="export-title" >Datum</p>
+        </div>
+        <div class="date-container">
+            
+            <div class="sample-entry">
+                <p class="export-content" >965</p>
+            </div>
+        </div>
+
+        <div class="title-state">
+            <p class="export-title" >Status</p>
+        </div>
+        <div class="state-container">
+            <div class="sample-entry">
+                <p class="export-content" >Bereit</p>
+            </div>
+        </div>
+
+        <a href="" class="btn btn-light export-download" >Herunterladen</a>
+    </div>
+        
+        
+</body>
+</html>

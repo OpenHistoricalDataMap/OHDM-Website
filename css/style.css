@@ -482,3 +482,67 @@ media queries
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
+
+  /* Export Styles */
+
+  .grid-container{
+	margin: 4rem;
+	display: grid;
+	grid-template-columns: 10% 55% 15% 10% 10%;
+	grid-template-rows: 10vh 7vh auto;
+	grid-template-areas: 
+		"header header header header header"
+		"title-name title-description title-date title-state ...."
+		"name description date state download";
+  }
+  #header-export{
+	  grid-area: header;
+	  margin-bottom: 20px;
+  }
+
+  .export-title{
+	  text-align: center;
+	  font-weight: bold;
+  }
+
+  .export-content{
+	text-align: center;
+}
+
+  .title-name{
+	grid-area: title-name;
+  }
+
+  .title-description{
+	grid-area: title-description;
+  }
+
+  .title-date{
+	grid-area: title-date;	
+  }
+  .titlestate{
+	grid-area: title-state;	
+  }
+
+
+  .name-container{
+	grid-area: name;
+  }
+
+  .description-container{
+	grid-area: description;
+  }
+
+  .date-container{
+	grid-area: date;	
+  }
+
+  .state-container{
+	grid-area: state;	
+  }
+
+  .export-download{
+	  grid-area: download;
+  }
+
+  
